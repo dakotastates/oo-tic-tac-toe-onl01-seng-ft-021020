@@ -41,7 +41,13 @@ WIN_COMBINATIONS = [
   
   def turn_count
     number_of_turns = 0
-    
+    (0..8).each do |n|
+    # n = 1
+    # n = 2
+    # n = 3
+    # n = 4
+    # n = 5
+    end
     number_of_turns
   end
   
