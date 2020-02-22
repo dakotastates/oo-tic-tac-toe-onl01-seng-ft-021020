@@ -54,9 +54,11 @@ WIN_COMBINATIONS = [
   
   def turn_count
     number_of_turns = 0
-    @board.each_with_index do |i, space|
-    if position_taken?(i)
-        number_of_turns += 1
+    i = 0
+    while i <9
+      if position_taken?(i)
+          number_of_turns += 1
+      end
     end
     number_of_turns
   end
