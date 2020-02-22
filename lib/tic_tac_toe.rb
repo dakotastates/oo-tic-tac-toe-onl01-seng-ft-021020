@@ -48,8 +48,4 @@ WIN_COMBINATIONS = [
     end
     number_of_turns
   end
-  
-  
-end
-    
 end
