@@ -50,10 +50,10 @@ WIN_COMBINATIONS = [
   end
   
   def current_player
-    if turn_count() % 2 != 0
-      "X"
-    else
+    if turn_count() % 2 == 0
       "O"
+    else
+      "X"
     end
   end
 end
