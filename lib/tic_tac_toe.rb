@@ -59,6 +59,7 @@ WIN_COMBINATIONS = [
       if position_taken?(i)
           number_of_turns += 1
       end
+      i += 1
     end
     number_of_turns
   end
