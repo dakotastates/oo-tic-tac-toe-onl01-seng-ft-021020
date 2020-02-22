@@ -54,10 +54,11 @@ WIN_COMBINATIONS = [
   
   def turn_count
     number_of_turns = 0
-    @board.ind do |i, space|
+    @board.each_with_index do |i, space|
     if self.position_taken(i)
         number_of_turns += 1
     end
+    number_of_turns
   end
   
   def current_player
