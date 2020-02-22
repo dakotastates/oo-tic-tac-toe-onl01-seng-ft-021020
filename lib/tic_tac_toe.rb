@@ -41,7 +41,7 @@ WIN_COMBINATIONS = [
   
   def turn
     puts "Please enter 1-9:"
-    input = gets.strip
+    input = gets
     index = input_to_index(input)
     char = current_player
     if valid_move?(index)
